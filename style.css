@@ -25,6 +25,21 @@ header{
     height: 327px;
 }
 
+@media only screen and (max-width: 1025px) {
+    .nav-img{
+        width: 192px;
+        height: 26px;
+    }
+
+    .shoe-card, .formal-shoe-card{ 
+        width: 300px;
+    }
+
+    .shoe-img{
+        width: 270px;
+    }
+}
+
 @media only screen and (max-width: 769px) {
     .nav-img{
         width: 192px;
