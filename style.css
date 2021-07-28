@@ -1,0 +1,25 @@
+header{
+    background: #FFF9F4;
+}
+
+.navbar{
+    background: #FFF9F4;
+}
+
+.custom-nav-item a{
+    font-weight: 700;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+    .nav-img{
+        width: 192px;
+        height: 26px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .nav-img{
+        width: 170px;
+    }
+}
